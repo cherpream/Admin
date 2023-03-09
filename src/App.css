@@ -1,0 +1,14 @@
+
+/*Responsive
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  */
+  
+/*Import font*/
+@font-face {
+  font-family: SUTB;
+  src: url(../src/Font/SUT\ Bold\ ver\ 1.00.ttf);
+}

@@ -1,0 +1,78 @@
+.topic1 {
+    display: flex;
+    background: rgb(35, 56, 114);
+    width: 12rem;
+    height: 3rem;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: SUTB;
+    color: #fff;
+    padding-left: 2.5rem;
+    border-radius: 0rem 10rem 10rem 0rem;
+    margin-left: -1rem;
+}
+
+.tablecenter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+}
+
+.tablecenter .top-table {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 0.5fr;
+    height: 2.5rem;
+    width: 60rem;
+    background-color: #fff;
+    border: 0.1rem solid #8D8D8D;
+    margin-top: 2rem;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.1rem;
+    font-family: SUTB;
+}
+
+.top-table {
+    font-size: 1.5rem;
+}
+
+.table {
+    font-size: 1.5rem;
+}
+
+.table img {
+    border-radius: 20rem;
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.tablecenter .table {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr 1fr 1fr 0.3fr;
+    height: 7rem;
+    width: 60rem;
+    background-color: #fff;
+    border: 0.1rem solid #8D8D8D;
+    margin-top: 0.5rem;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    font-family: SUTB;
+}
+
+.userlist .scroll-container {
+    background-color: rgb(255, 255, 255);
+    height: 18rem;
+    width: 62rem;
+    overflow-y: scroll;
+    margin-left: 0rem;
+}
+
+.userlist .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,84 @@
+    .bg-user {
+        display: flex;
+        background: linear-gradient(-45deg, #88B7FF, #9C4EFF);
+        /*#a3e9a4*/
+        min-height: 100vh;
+        max-width: 100;
+        position: relative;
+    }
+    
+    .Showpage {
+        background-color: rgb(255, 255, 255);
+        margin-right: 2rem;
+        height: 30rem;
+        width: 70rem;
+        margin-left: 2rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+        font-family: SUTB;
+    }
+    
+    .miniline {
+        background-color: black;
+        height: 0.1rem;
+        width: 13rem;
+        margin-bottom: 1rem;
+    }
+    
+    .vertical-tab {
+        padding-top: 5rem;
+        width: 60rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        flex-direction: row;
+        display: flex;
+        position: relative;
+    }
+    
+    .row {
+        display: flex;
+        padding-top: 1rem;
+        width: 20rem;
+        background-color: rgb(255, 255, 255);
+        height: 30rem;
+    }
+    
+    .col-3 {
+        width: 24.9%;
+    }
+    
+    .col-9 {
+        /* width: 75.1%;*/
+        width: 100rem;
+    }
+    
+    .btn {
+        width: 12rem;
+        padding: 0.75rem;
+        font-size: 10rem;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+        margin-left: 0.5rem;
+    }
+    
+    .btn.active {
+        background: linear-gradient(-45deg, #88B7FF, #9C4EFF);
+        box-shadow: 1px 1px 8px 0 #ccc;
+        font-family: SUTB;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+    
+    .item {
+        display: none;
+        width: 65rem;
+        font-size: 5rem;
+    }
+    
+    .item.active {
+        display: block;
+    }

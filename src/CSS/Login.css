@@ -1,0 +1,110 @@
+/*ใส่ width heiht มีปัญหา */
+.bg-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(-45deg,#88B7FF,#9C4EFF);  /*#a3e9a4*/ 
+    min-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.bg-login .container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+   
+}
+.bg-login .box-pic{
+    width: 20rem;
+    height: 25rem;
+    background-color:#4b4a4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.box-pic img{
+    height: 8rem;
+    width: 8rem;
+}
+.box-pic h1{
+    color: #fff;
+    font-family: SUTB;
+}
+
+.bg-login .box-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 25rem;
+    background-color: #fff;
+    position: relative;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.box-form h1{
+    color: #757575;
+    font-family: SUTB;
+    margin-top: 1rem;
+}
+.box-form h6{
+    color:  #757575;
+    font-family: SUTB;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.box-form h5{
+    margin-left: -20rem;
+    color:  #757575;
+    font-family: SUTB;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+ .box-form input {
+    font-family:SUTB;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 1rem;
+    width: 22rem;
+    height: 2.5rem;
+    justify-content: space-between;
+    padding-left: 1rem;
+    caret-color: #FF8E76;
+    border: 0.1rem  solid  #757575;
+    background: #fff;
+    color: #0a0a0a;
+}
+
+.box-form .log-btn{
+    background: linear-gradient(251deg, #8F37C6, #F36666);
+    width: 8rem;
+    height: 2rem;
+    transition: 0.5s;
+    border-radius: 10em;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #888;
+    text-align: center;
+    text-decoration: none;
+    margin: 17px 165px;
+    line-height: 35px;
+    color: #fff;  
+    margin-top: 3rem;
+}
+
